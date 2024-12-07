@@ -1,0 +1,129 @@
+body, h1, h2, h3, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    background: #ff6f00;
+    color: white;
+    padding: 20px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+header nav ul {
+    display: flex;
+    gap: 40px;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    color: white;
+    font-weight: bold;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.pernamentky {
+    text-align: center;
+    padding: 15%;
+    background-image: url(../images/pernamentkypozadie.png);
+    background-size: cover;
+}
+
+.pernamentky h1 {
+    color: #ff6f00;
+    margin-bottom: 10px;
+}
+
+.pernamentky p {
+    margin-bottom: 30px;
+    font-size: 1.2em;
+    color: #555;
+}
+
+.pernamentka-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.pernamentka {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.pernamentka h2 {
+    color: #ff6f00;
+    margin-bottom: 10px;
+}
+
+.pernamentka ul {
+    list-style: none;
+    margin: 20px 0;
+    padding: 0;
+}
+
+.pernamentka ul li {
+    margin-bottom: 10px;
+    font-size: 0.9em;
+}
+
+.pernamentka .cena {
+    font-size: 1.5em;
+    color: #333;
+    margin: 20px 0;
+    font-weight: bold;
+}
+
+.pernamentka .btn-primary {
+    background: #ff6f00;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.pernamentka.popular {
+    border: 2px solid #ff6f00;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.pernamentka.popular h2 {
+    color: #ff4500;
+}
+
+.logo a {
+    text-decoration: none;
+    color: white; 
+}

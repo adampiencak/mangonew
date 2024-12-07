@@ -1,0 +1,125 @@
+body, h1, h2, h3, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    background: #ff6f00;
+    color: white;
+    padding: 20px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header nav ul {
+    display: flex;
+    gap: 40px;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    color: white;
+    font-weight: bold;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.kontakt {
+    text-align: center;
+    padding: 6%;
+    background: #f7f7f7;
+}
+
+.kontakt h1 {
+    color: #ff6f00;
+    margin-bottom: 20px;
+}
+
+.kontakt p {
+    margin-bottom: 30px;
+    font-size: 1.2em;
+    color: #555;
+}
+
+.kontakt-dotaznik {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.dotaznik-group {
+    margin-bottom: 20px;
+}
+
+.dotaznik-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.dotaznik-group input,
+.dotaznik-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.dotaznik-group input[type="tel"],
+.dotaznik-group input[type="email"] {
+    font-size: 1em;
+}
+
+.dotaznik-group textarea {
+    font-size: 1.1em;
+    resize: vertical;
+}
+
+.btn-primary {
+    background: #ff6f00;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background: #e65c00;
+}
+
+.logo a {
+    text-decoration: none;
+    color: white; 
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt | MANGOGYM</title>
+    <link rel="stylesheet" href="../kontakt/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1><a href="../index.html">MANGOGYM</a></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Domov</a></li>
+                    <li><a href="../pernamentky/pernamentky.html">Pernamentky</a></li>
+                    <li><a href="../o nas/about.html">O nás</a></li>
+                    <li><a href="../kontakt/kontakt.html">Kontakt</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="kontakt">
+            <h1>Kontaktujte nás</h1>
+            <p>Máte nejaké otázky alebo pripomienky? Rádi sa dozvieme váš názor!</p>
+            <form action="#" method="POST" class="kontakt-dotaznik">
+                <div class="dotaznik-group">
+                    <label for="name">Meno</label>
+                    <input type="text" id="name" name="name" placeholder="Vaše meno" required>
+                </div>
+                <div class="dotaznik-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" placeholder="Váš e-mail" required>
+                </div>
+                <div class="dotaznik-group">
+                    <label for="phone">Telefón</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Váš telefón" required>
+                </div>
+                <div class="dotaznik-group">
+                    <label for="pripomienka">Vaša pripomienka</label>
+                    <textarea id="pripomienka" name="pripomienka" placeholder="Napíšte nám..." rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn-primary">Odoslať</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 MANGOGYM.</p>
+    </footer>
+</body>
+</html>
